@@ -337,10 +337,10 @@ a.active {
 }
 
 #skills .custom-icon {
-    max-width: 70px; /* Increased maximum width */
-    max-height: 70px; /* Increased maximum height */
+    max-width: 100px; /* Increased maximum width */
+    max-height: 100px; /* Increased maximum height */
     object-fit: contain; /* Ensures the image fits within the specified dimensions while maintaining aspect ratio */
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 #skills .skill p {
