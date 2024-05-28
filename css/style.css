@@ -332,27 +332,27 @@ a.active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px; /* Increased margin */
+    margin: 20px; /* Margin around each skill item */
     text-align: center;
 }
 
 #skills .custom-icon {
-    max-width: 150px; /* Increased maximum width */
-    max-height: 150px; /* Increased maximum height */
-    object-fit: cover; /* Ensures the image fits within the specified dimensions while maintaining aspect ratio */
+    width: auto; /* Set width to auto to maintain original size */
+    height: auto; /* Set height to auto to maintain original size */
     margin-bottom: 10px; /* Additional space below the icon */
 }
 
 #skills .custom-icon img {
-    max-width: 100%; /* Ensure the image fills its container */
-    max-height: 100%; /* Ensure the image fills its container */
+    width: auto; /* Ensure the image retains its original width */
+    height: auto; /* Ensure the image retains its original height */
 }
 
 #skills .skill p {
-    font-size: 16px; /* Slightly larger font size for captions */
+    font-size: 16px; /* Font size for captions */
     font-weight: bold;
-    margin-top: 10px; /* Additional space between the icon and the caption */
+    margin-top: 10px; /* Space between the icon and the caption */
 }
+
 
 
 
