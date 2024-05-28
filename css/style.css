@@ -333,18 +333,22 @@ a.active {
     flex-direction: column;
     align-items: center;
     margin: 15px;
+    text-align: center;
 }
 
-#skills .skill i, 
-#skills .skill .custom-icon {
-    font-size: 40px;
+#skills .custom-icon {
+    width: 70px; /* Fixed width */
+    height: 70px; /* Fixed height */
+    object-fit: cover; /* Ensures the image fits within the specified dimensions */
     margin-bottom: 10px;
 }
 
 #skills .skill p {
-    font-size: 16px;
+    font-size: 14px; /* Smaller font size for captions */
     font-weight: bold;
+    margin-top: 5px; /* Additional space between the icon and the caption */
 }
+
 
 
 /* experience section
