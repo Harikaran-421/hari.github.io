@@ -163,3 +163,15 @@ $(document).ready(function () {
 
     });
 });
+
+
+$(document).ready(function() {
+    $('.skill-circle').each(function() {
+        var level = $(this).data('level');
+        var $levelDiv = $('<div class="level-div">' + level + '</div>');
+        $(this).append($levelDiv);
+        $levelDiv.animate({
+            fontSize: '30px'
+        }, 1000);
+    });
+});

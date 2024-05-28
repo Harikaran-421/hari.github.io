@@ -320,6 +320,41 @@ a.active {
 }
 
 
+/* skills section
+==================================================*/
+
+#skills {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #007bff; /* or any other color you prefer */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.skill-level {
+    color: white;
+    font-size: 20px;
+}
+
+.skill p {
+    margin-top: 10px;
+}
+
+
+
 /* experience section
 ==================================================*/
 
