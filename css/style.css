@@ -322,36 +322,29 @@ a.active {
 
 /* skills section
 ==================================================*/
+#skills .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 #skills .skill {
-    text-align: center;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
-#skills .skill-circle {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #e0e0e0;
-    margin: 0 auto;
-}
-
-#skills .skill-level {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.skill p {
-    margin-top: 10px;
+#skills .skill .skill-name {
     font-size: 18px;
     font-weight: bold;
 }
 
+#skills .skill .skill-level {
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 /* experience section
