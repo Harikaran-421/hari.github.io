@@ -339,8 +339,8 @@ a.active {
 #skills .custom-icon {
     max-width: 100px; /* Increased maximum width */
     max-height: 100px; /* Increased maximum height */
-    object-fit: contain; /* Ensures the image fits within the specified dimensions while maintaining aspect ratio */
-    margin-bottom: 6px;
+    object-fit: cover; /* Ensures the image fits within the specified dimensions while maintaining aspect ratio */
+    margin-bottom: 10px;
 }
 
 #skills .skill p {
