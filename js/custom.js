@@ -167,11 +167,16 @@ $(document).ready(function () {
 
 $(document).ready(function() {
     $('.skill-circle').each(function() {
-        var level = $(this).data('level');
-        var $levelDiv = $('<div class="level-div">' + level + '</div>');
-        $(this).append($levelDiv);
-        $levelDiv.animate({
-            fontSize: '30px'
-        }, 1000);
+        var $this = $(this);
+        var level = $this.data('level');
+        var $skillLevel = $this.find('.skill-level');
+        $({ percentage: 0 }).animate({ percentage: level }, {
+            duration: 2000,
+            easing: 'linear',
+            step: function() {
+                var percentage = Math.round(this.percentage);
+                $skillLevel.text(percentage + '%');
+            }
+        });
     });
 });
