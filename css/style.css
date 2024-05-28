@@ -337,10 +337,9 @@ a.active {
 }
 
 #skills .custom-icon {
-    max-width: 100px; /* Increased maximum width */
-    max-height: 100px; /* Increased maximum height */
-    object-fit: cover; /* Ensures the image fits within the specified dimensions while maintaining aspect ratio */
-    margin-bottom: 10px;
+    width: 80px; /* Fixed width for all icons */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    margin-bottom: 5px;
 }
 
 #skills .skill p {
@@ -348,6 +347,7 @@ a.active {
     font-weight: bold;
     margin-top: 5px; /* Additional space between the icon and the caption */
 }
+
 
 
 
