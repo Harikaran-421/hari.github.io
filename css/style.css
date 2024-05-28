@@ -337,10 +337,10 @@ a.active {
 }
 
 #skills .custom-icon {
-    max-width: 80px; /* Increased maximum width */
-    max-height: 80px; /* Increased maximum height */
+    max-width: 150px; /* Increased maximum width */
+    max-height: 150px; /* Increased maximum height */
     object-fit: cover; /* Ensures the image fits within the specified dimensions while maintaining aspect ratio */
-    margin-bottom: 5px;
+    margin-bottom: 10px; /* Additional space below the icon */
 }
 
 #skills .custom-icon img {
@@ -349,11 +349,10 @@ a.active {
 }
 
 #skills .skill p {
-    font-size: 14px; /* Slightly larger font size for captions */
+    font-size: 16px; /* Slightly larger font size for captions */
     font-weight: bold;
-    margin-top: 5px; /* Additional space between the icon and the caption */
+    margin-top: 10px; /* Additional space between the icon and the caption */
 }
-
 
 
 
