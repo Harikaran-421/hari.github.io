@@ -299,7 +299,7 @@ a.active {
 }
 
 .name {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 60px;
     color: #1f1919;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -307,7 +307,7 @@ a.active {
 }
 
 .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
     color: #2d2626;
@@ -884,7 +884,15 @@ fieldset {
 
 @media (max-width: 768px) {
     #home {
-        background-attachment: scroll; /* Allow the background to scroll with the content on mobile */
-        background-size: contain; /* Ensure the image scales down to fit on smaller screens */
+        background-attachment: scroll;
+        background-size: contain;
     }
-}
+
+    .name {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}  
