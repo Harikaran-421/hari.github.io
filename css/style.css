@@ -678,6 +678,10 @@ a.active {
 }
 
 
+.py-on .close-popup-modal {
+    opacity: 1;
+}
+
 
 
 .modal-content h2 {
