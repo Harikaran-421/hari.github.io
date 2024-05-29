@@ -106,6 +106,7 @@ $(document).ready(function () {
     //animatedModal
     $("#demo01").usvisa();
     $("#demo02").nlp();
+    $("#demo03").cv();
 
 
     // Contact Form 	
