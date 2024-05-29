@@ -460,17 +460,35 @@
                     <div class="col-md-8 col-md-offset-2">
                         <h2>Named Entity Recognition<br /></h2>
                         <div class="h-50"></div>
-                        <p>-------------------nlp--------------------------</p>
+                        <h3>Objective</h3>
+                        <p>The primary objective of using the bert-base-cased model for Named Entity Recognition (NER) is to automatically identify and classify named entities within a text corpus. These entities can be people, organizations, locations, dates, monetary values, or other predefined categories depending on your specific needs.</p>
                         
                         <br />
-                        <br /> <img src="img/portfolio/projects/nlp.jpg" alt="" class="img-responsive" />
+                        <br /> <img src="img/portfolio/projects/ner.png" alt="" class="img-responsive" />
                         <br />
                         <br />
-                        <p>-------------------------------------</p>
-                        <p>----------------------------------------------------------------------------
-                            <li>--------------------------------------------------------------</li>
-                            <li>---------------------------------------------------------------</li>
+                        <h3>Problem Statement/Case Study</h3>
+                        <p>Imagine you have a large collection of customer reviews for a retail company. You want to automatically identify the names of products mentioned in the reviews to understand customer sentiment and buying trends. Manually identifying all product names in the reviews would be time-consuming and error-prone.</p>
+                        <h3>Solution</h3>
+                        <p>Here's how you can use the bert-base-cased model for NER to solve this problem
+                            <li>1.	Data Preparation
+                                <li>Annotate a sample of your customer reviews with the named entities you want to identify (e.g., product names).</li>
+                                <li>Preprocess your text data by cleaning and tokenizing it for the model.</li>
+                            </li>
+                            <li>2.	Model Training
+                                <li>Fine-tune the bert-base-cased model on your annotated dataset. This involves adjusting the model's weights to specialize it for NER on your specific domain (customer reviews).</li>
+                            </li>
+                            <li>3.	Entity Recognition
+                                <li>Use the fine-tuned model to process your entire collection of customer reviews.</li>
+                                <li>The model will identify and classify product names (and potentially other entities) within the reviews.</li>
+                            </li>
+                            <li>4.	Analysis and Insights
+                                <li>o	Analyze the extracted product names to understand customer preferences, identify popular items, and gain insights into product sentiment.</li>
+                            </li>
+                            <p>
+                                Check out the complete project on Github:<a href="https://github.com/Anna-Elsa-Luiz/Named_Entity_Recognition_using_BERT" target="_blank">Named Entity Recognition using BERT</a>
                             </p>
+                        
                         <br />
                         <br /> </div>
                 </div>
