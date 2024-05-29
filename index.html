@@ -464,14 +464,15 @@
                         <p>The primary objective of using the bert-base-cased model for Named Entity Recognition (NER) is to automatically identify and classify named entities within a text corpus. These entities can be people, organizations, locations, dates, monetary values, or other predefined categories depending on your specific needs.</p>
                         
                         <br />
-                        <br /> <img src="img/portfolio/projects/ner.png" alt="" class="img-responsive" />
+                        <br /> <img src="img/portfolio/projects/nlp.webp" alt="" class="img-responsive" />
                         <br />
                         <br />
                         <h3>Problem Statement/Case Study</h3>
                         <p>Imagine you have a large collection of customer reviews for a retail company. You want to automatically identify the names of products mentioned in the reviews to understand customer sentiment and buying trends. Manually identifying all product names in the reviews would be time-consuming and error-prone.</p>
                         <h3>Solution</h3>
-                        <p>Here's how you can use the bert-base-cased model for NER to solve this problem
-                            1.	Data Preparation
+                        <p>Here's how you can use the bert-base-cased model for NER to solve this problem.
+                        </br>
+                           1.	Data Preparation
                                 <li>Annotate a sample of your customer reviews with the named entities you want to identify (e.g., product names).</li>
                                 <li>Preprocess your text data by cleaning and tokenizing it for the model.</li>
                             </li>
@@ -508,16 +509,32 @@
                     <div class="col-md-8 col-md-offset-2">
                         <h2>Industry safety Detection<br /></h2>
                         <div class="h-50"></div>
-                        <p>-------------------cv--------------------------</p>
+                        <h3>Objective</h3>
+                        <p>
+                            The primary objective of using YOLOv7 for industry safety detection is to develop a real-time computer vision system that automatically detects and identifies safety violations in an industrial setting like Workers not wearing proper personal protective equipment (PPE) like helmets, goggles, gloves, footwear/boots or jacket .
+                            </p>
                         
                         <br />
                         <br /> <img src="img/portfolio/projects/cv.png" alt="" class="img-responsive" />
                         <br />
                         <br />
-                        <p>-------------------------------------</p>
-                        <p>----------------------------------------------------------------------------
-                            <li>--------------------------------------------------------------</li>
-                            <li>---------------------------------------------------------------</li>
+                        <h3>Problem Statement/Case Study</h3>
+                        <p>In a large manufacturing plant, it can be challenging for safety inspectors to monitor every worker and work area constantly. Manual inspections are time-consuming and may miss potential safety hazards. This can lead to accidents and injuries, causing downtime, production losses, and legal liabilities for the company.</p>
+                        <h3>Solution</h3>
+                        </br>
+
+                        <p>
+                            1.	Data Collection and Annotation:
+                                <li>Collect video footage or images from various areas of the manufacturing plant.</li>
+                                <li>Annotate this data with bounding boxes around workers, PPE, and potential hazards. Each bounding box should be labeled with the corresponding class (e.g., "worker without helmet," "improper lifting technique").</li>
+                            2.	Model Training:
+                                <li>Train a YOLOv7 model on the annotated dataset. YOLOv7 is well-suited for this task because it's a real-time object detection model that can efficiently identify multiple objects within an image or video frame.</li>
+                            3.	Deployment and Monitoring:
+                                <li>Deploy the trained YOLOv7 model on edge devices or cloud servers for real-time video processing.</li>
+                                <li>The model will continuously analyze live video feeds from cameras installed in the plant.</li>
+                            4.	Alerting and Response:
+                                <li>When the model detects a safety violation, it can trigger an alert (e.g., visual notification, audio alarm) to warn workers and notify safety personnel.</li>
+                                <li>Safety personnel can then investigate the situation and take appropriate corrective actions.</li>
                             </p>
                         <br />
                         <br /> </div>
