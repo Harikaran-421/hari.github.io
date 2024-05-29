@@ -106,19 +106,7 @@ $(document).ready(function () {
     //animatedModal
     $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").usvisa();
 
-    $(document).ready(function() {
-        // Open modal when any of the portfolio items are clicked
-        $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").on('click', function(e) {
-            e.preventDefault();
-            var targetModal = $(this).attr('href'); // Get the target modal ID from the href attribute
-            $(targetModal).addClass('usvisa-on'); // Add the class to show the modal
-        });
     
-        // Close modal when the close button is clicked
-        $('.close-popup-modal').on('click', function() {
-            $(this).closest('.popup-modal').removeClass('usvisa-on'); // Remove the class to hide the modal
-        });
-    });
     
 
 
