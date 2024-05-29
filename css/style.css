@@ -660,6 +660,12 @@ a.active {
     opacity: 1;
 }
 
+.nlp-on .close-popup-modal {
+    opacity: 1;
+}
+
+
+
 .modal-content h2 {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
