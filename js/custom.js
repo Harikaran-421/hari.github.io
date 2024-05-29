@@ -109,7 +109,7 @@ $(document).ready(function () {
     $("#demo03").cv();
     $("#demo04").SP();
     $("#demo05").cd();
-    $("#demo05").py();
+    $("#demo06").py();
        
 
 
