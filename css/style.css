@@ -866,14 +866,7 @@ fieldset {
     }
 }
 
-@media (max-width: 768px) {
-    #home {
-        background-attachment: scroll;
-        
-    }
 
-    
-}   
 
 
 
