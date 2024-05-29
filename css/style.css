@@ -284,7 +284,8 @@ a.active {
 #home {
     background: url(../img/portfolio/002.jpg);
     background-size: cover;
-    height: 100vh;  
+    height: 100vh;
+    background-attachment: fixed;  
 }
 
 .table-cell {
@@ -881,8 +882,9 @@ fieldset {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     #home {
-        background-size: cover;
+        background-attachment: scroll; /* Allow the background to scroll with the content on mobile */
+        background-size: contain; /* Ensure the image scales down to fit on smaller screens */
     }
 }
