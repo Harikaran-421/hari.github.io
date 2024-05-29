@@ -585,16 +585,35 @@
                     <div class="col-md-8 col-md-offset-2">
                         <h2>Chest Disease Classification<br /></h2>
                         <div class="h-50"></div>
-                        <p>The primary objective is to create a machine learning model using VGG-16 that can analyze chest X-rays and differentiate between lung adenocarcinoma (a type of lung cancer) and normal lung tissue.</p>
+                        <h3>Objective</h3>
+                        <p>This project explores using a deep learning model to improve chest disease diagnosis.To develop a model using VGG16 to classify chest X-ray images as either lung adenocarcinoma (a type of lung cancer) or normal lung tissue.</p>
+                            
                         
                         <br />
                         <br /> <img src="img/portfolio/projects/cd.png" alt="" class="img-responsive" />
                         <br />
                         <br />
-                        <p> Early detection of lung adenocarcinoma is crucial for better treatment outcomes. This model can potentially assist radiologists in identifying suspicious cases for further investigation.</p>
-                        <p>By automating the initial screening of chest X-rays, the model can help radiologists focus on more complex cases, improving efficiency.</p>
-                           
+                        <h3>Problem Statement/Case Study</h3>
+                        <p>Traditional chest X-ray analysis can be subjective and time-consuming. Radiologists may miss subtle signs of adenocarcinoma, leading to delayed diagnoses. Additionally, the increasing workload of radiologists can limit the time dedicated to each case.</p>
                         <br />
+
+                        <h3>Solution</h3>
+                        <p>
+                            1.	Data Collection and Preprocessing
+                                <li>Gather a large, balanced dataset of chest X-ray images containing both adenocarcinoma and normal lung tissue, reflecting real-world disease prevalence.</li>
+                                <li>Annotate the images to identify the presence or absence of adenocarcinoma. .</li>
+                                <li>Preprocess the images (resizing, normalization) to prepare them for the model. .</li>
+                            2.	Model Development with Transfer Learning:
+                                <li>Leverage the pre-trained VGG16 model's ability to recognize generic image features. Freeze the initial layers and modify the final layers to focus on identifying patterns specific to lung adenocarcinoma in chest X-rays. .</li>
+                                <li>Train the model on the prepared dataset, allowing it to learn the image characteristics that differentiate adenocarcinoma from normal lung tissue. .</li>
+                            3.	Evaluation and Improvement:
+                                <li>Evaluate the model's performance on a separate validation dataset to assess itsgeneralizability and avoid overfitting. .</li>
+                                <li>Continuously monitor the model's accuracy and retrain it periodically with new data to ensure its effectiveness. .</li>
+                            4.	Deployment and Integration:
+                                <li>Integrate the model into a clinical workflow where radiologists can utilize its predictions alongside their expertise while reviewing chest X-rays. .</li>
+                                <li>Design the model's output to be clear and informative, highlighting suspicious regions and its confidence level in the prediction. .</li>
+
+                        </p>
                         <br /> </div>
                 </div>
             </div>
