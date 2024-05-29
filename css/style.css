@@ -285,7 +285,7 @@ a.active {
     background: url(../img/portfolio/002.jpg);
     background-size: cover;
     height: 100vh;
-    background-attachment: fixed;  
+     
 }
 
 .table-cell {
