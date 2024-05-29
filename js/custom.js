@@ -104,8 +104,8 @@ $(document).ready(function () {
     });
 
     //animatedModal
-    $("#demo01").usvisa();
-    $("#demo02").nlp();
+    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").usvisa();
+    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").nlp();
 
 
     // Contact Form 	
