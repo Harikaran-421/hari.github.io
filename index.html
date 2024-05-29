@@ -584,6 +584,11 @@
                 <div class="portfolio-padding">
                     <div class="col-md-8 col-md-offset-2">
                         <h2>Chest Disease Classification<br /></h2>
+                        <br />
+                        <!-- Add the GitHub link below this paragraph -->
+                        <p>Visit the project on GitHub: 
+                           <a href="https://github.com/Anna-Elsa-Luiz/Chest-Disease-Classification-using-CT-Scan-Image " target="_blank">GitHub link</a>
+                        </p>
                         <div class="h-50"></div>
                         <h3>Objective</h3>
                         <p>This project explores using a deep learning model to improve chest disease diagnosis.To develop a model using VGG16 to classify chest X-ray images as either lung adenocarcinoma (a type of lung cancer) or normal lung tissue.</p>
@@ -599,17 +604,20 @@
 
                         <h3>Solution</h3>
                         <p>
-                            1.	Data Collection and Preprocessing
+                                1.	Data Collection and Preprocessing
                                 <li>Gather a large, balanced dataset of chest X-ray images containing both adenocarcinoma and normal lung tissue, reflecting real-world disease prevalence.</li>
                                 <li>Annotate the images to identify the presence or absence of adenocarcinoma. .</li>
                                 <li>Preprocess the images (resizing, normalization) to prepare them for the model. .</li>
-                            2.	Model Development with Transfer Learning:
+                        </br>
+                                2.	Model Development with Transfer Learning:
                                 <li>Leverage the pre-trained VGG16 model's ability to recognize generic image features. Freeze the initial layers and modify the final layers to focus on identifying patterns specific to lung adenocarcinoma in chest X-rays. .</li>
                                 <li>Train the model on the prepared dataset, allowing it to learn the image characteristics that differentiate adenocarcinoma from normal lung tissue. .</li>
-                            3.	Evaluation and Improvement:
-                                <li>Evaluate the model's performance on a separate validation dataset to assess itsgeneralizability and avoid overfitting. .</li>
+                        </br>    
+                                3.   Evaluation and Improvement:
+                                <li>Evaluate the model's performance on a separate validation dataset to assess itsgeneralizability and avoid overfitting.</li>
                                 <li>Continuously monitor the model's accuracy and retrain it periodically with new data to ensure its effectiveness. .</li>
-                            4.	Deployment and Integration:
+                        </br>    
+                                4.	Deployment and Integration:
                                 <li>Integrate the model into a clinical workflow where radiologists can utilize its predictions alongside their expertise while reviewing chest X-rays. .</li>
                                 <li>Design the model's output to be clear and informative, highlighting suspicious regions and its confidence level in the prediction. .</li>
 
