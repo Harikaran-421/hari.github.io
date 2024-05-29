@@ -669,6 +669,9 @@ a.active {
 }
 
 
+.SP-on .close-popup-modal {
+    opacity: 1;
+}
 
 
 .modal-content h2 {
