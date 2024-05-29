@@ -108,6 +108,7 @@ $(document).ready(function () {
     $("#demo02").nlp();
     $("#demo03").cv();
     $("#demo04").SP();
+    $("#demo05").cdc();
 
        
 

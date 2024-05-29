@@ -673,6 +673,12 @@ a.active {
     opacity: 1;
 }
 
+.cdc-on .close-popup-modal {
+    opacity: 1;
+}
+
+
+
 
 .modal-content h2 {
     font-family: 'Playfair Display', serif;
