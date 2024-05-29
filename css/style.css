@@ -297,6 +297,22 @@ a.active {
     height: 100vh;
 }
 
+.name {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin: 10px 0 0;
+}
 
 /* about section
 ==================================================*/
@@ -676,6 +692,7 @@ a.active {
 .cd-on .close-popup-modal {
     opacity: 1;
 }
+
 
 
 .py-on .close-popup-modal {
