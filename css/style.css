@@ -298,22 +298,6 @@ a.active {
     height: 100vh;
 }
 
-.name {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 60px;
-    color: #1f1919;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin: 0;
-}
-
-.title {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    color: #2d2626;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    margin: 10px 0 0;
-}
 
 /* about section
 ==================================================*/
